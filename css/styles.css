@@ -9,6 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+    line-height: 1.6;
     /*  background: whitesmoke; */
 }
 
@@ -78,6 +79,7 @@ strong {
     color: #1792d2;
     text-decoration: none;
     font-weight: 700;
+    letter-spacing: 1px;
 
 }
 
@@ -94,12 +96,14 @@ strong {
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
+    line-height: 1.4;
 }
 
 .widget-title {
     font-size: 1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 /*
@@ -151,7 +155,7 @@ header {
 
 footer {
     background: #143774;
-    color: white;
+    color: rgb(255, 255, 255, .75);
     text-align: center;
     padding: 3em;
 }
@@ -176,6 +180,8 @@ nav a {
     color: #707070;
     font-weight: 700;
     padding: .25em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a:hover,
